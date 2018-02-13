@@ -1,0 +1,88 @@
+/*
+Theme Name: Christine's 2012 Child Theme
+Description: Child theme based on twentytwelve
+Author: Analytical Engine Interactive Inc.
+Version: 1.0
+Template: twentytwelve
+*/
+
+@import url('../twentytwelve/style.css');
+@import url('https://fonts.googleapis.com/css?family=Joti+One|Ranga');
+
+/*
+font-family: 'Joti One', cursive;
+font-family: 'Ranga', cursive;
+*/
+
+/*test style to make sure child theme is working */
+
+.site {
+    background-color: #ffffff;
+}
+
+/* changing basic body font family in posts and pages */
+.entry-content p, .entry-summary p, .comment-content p, .mu_register p {
+	font-family: 'Ranga', cursive;
+	color: #000000;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Joti One', cursive;
+}
+
+.site-header {
+    background-color: red;
+}
+
+.site-header-about {
+    background-color: green;
+}
+
+.site-header-home {
+    background-color: blue;
+}
+
+.site-header h1 a {
+    color: #ffffff;
+}
+
+.site-header h2 {
+    color: #CDDC39;
+}
+
+input[type="submit"] {
+    background-image: -webkit-linear-gradient(top, #f4f4f4, #9C27B0);
+}
+
+@media screen and (min-width: 600px) {
+	.main-navigation li a {
+    	color: #ffffff;
+	}
+}
+
+.widget-area .widget a {
+    color: #8BC34A;
+}
+
+.archive-title {
+    color: #FFEB3B;
+}
+
+/*new class for full width pages*/
+
+.site-content-wide {
+		width: 100%;
+	}
+
+.archive-title {
+    color: #000000;
+    font-size: 3em;
+}
+
+.entry-content p {
+    font-family: arial;
+    color: #F44336;
+}
+
+
+
