@@ -2,3 +2,4 @@ DToolsF17Site.sql
 wp-config.php
 wp-content/uploads/*
 wp-config-sample.php
+.htaccess
