@@ -26,8 +26,12 @@ font-family: 'Ranga', cursive;
 	color: #000000;
 }
 
-h1, h2, h3, h4 {
+h2, h3, h4 {
 	font-family: 'Joti One', cursive;
+}
+
+h1 {
+	font-family: Helvetica, sans-serif;
 }
 
 .site-header {
